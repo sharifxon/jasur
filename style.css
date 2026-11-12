@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #FC4308;
+
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.hero{
+    background: #FFFFFF;
+    background-blend-mode: multiply;
+    background: linear-gradient(233.95deg, #0D1E20 -73.12%, #313E2A 53.36%, #262D20 103.17%);
+    height: 100vh;
+
+}
+
+header{
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+
+}
+.btn{
+        padding: 10px 16px;
+        background: transparent;
+        border: none;
+        border: solid 1px;
+    }
+.hero-main{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+.hero_text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+
+    h1{
+        font-size: 100px;
+    }
+    p{
+        width: 60%;
+    }
+}
+.hero_img{
+        height: 90%;
+}
+
+.our_wrork{
+    height: 100vh;
+    background: #0E1513;
+  
+}
+
+.work_cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.our_work-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.wrok_bnt{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.arts{
+    background: linear-gradient(90deg, #323E2A 0%, #101815 100%);
+    
+
+}
+.art{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.art_text{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+
+
+}
+.art_heading{
+    font-size: 48px;
+}
+.art_img{
+    height: 80%;
+}
